@@ -19,9 +19,6 @@ import irimi.springrestdemo.service.ActorService;
 @RequestMapping("/actors")
 public class ActorController {
 
-    // Check code files for line separators
-    // c: and form:
-
     @Autowired
     private ActorService service;
 
